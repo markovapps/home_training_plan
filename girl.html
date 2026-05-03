@@ -86,7 +86,7 @@
 
 <script>
 const PLAN = {
-  startDate: (() => { const d = new Date(); d.setHours(0,0,0,0); return d; })(),
+  startDate: new Date(2026, 4, 2),
   phases: ["Фаза 1 — база", "Фаза 2 — объём", "Фаза 3 — интенсивность", "Фаза 4 — силовая"],
   phaseCls: ["ph0", "ph1", "ph2", "ph3"],
   weeks: [
